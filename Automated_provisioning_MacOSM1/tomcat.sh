@@ -51,8 +51,8 @@ systemctl daemon-reload
 systemctl start tomcat
 systemctl enable tomcat
 
-git clone -b local-setup https://github.com/devopshydclub/vprofile-project.git
-cd vprofile-project
+git clone https://github.com/kamasutrax/vagrant_webapp.git
+cd vagrant_webapp
 mvn install
 systemctl stop tomcat
 sleep 60
